@@ -26,7 +26,7 @@ html {
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 img {
@@ -80,12 +80,58 @@ a.logo {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    display: inline-flex;
+}
 
+.navigator .item-1 {
+    padding-left: 97px;
+
+}
+
+.navigator .item-2 {
+    padding-left: 53px;
+
+}
+
+.navigator .item-3 {
+    padding-left: 69px;
 }
 
 .navigator li a:hover {
     color: #2196F3;
 }
+
+/*contact info at the top */
+.contact-info .email {
+    padding-left: 340px;
+    padding-top: 32px;
+}
+
+.contact-info .phone {
+    padding-left: 50px;
+    padding-top: 32px;
+    padding-right: 215px;
+}
+
+/* paddings of the header*/
+
+.top-header {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+    flex-direction: row;
+
+}
+
+.logo-top {
+    display: inline-flex;
+    padding-top: 24px;
+    padding-left: 215px;
+    padding-bottom: 25px;
+
+}
+
 
 /* header contact info */
 .contact-info {
@@ -94,14 +140,19 @@ a.logo {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    display: inline-flex;
 }
 
 .contact-info li a:hover {
     color: #2196F3;
 }
 
+/* background of the h1 */
 .page-head {
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+
 }
 
 /* page heading */
@@ -110,10 +161,15 @@ h1.page-heading {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    margin: 0 auto;
+    padding: 200px 452px 30px 452px;
+
 }
 
 
@@ -123,16 +179,20 @@ h1.page-heading {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+
     line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
     border: none;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin: 0 auto;
+    padding: 10px 19px 10px 20px;
 }
 
 /*BACKGROUND OF THE TITLE*/
@@ -159,9 +219,13 @@ p.goal-details {
     color: #757575;
 }
 
+.all-goals {
+    display: inline-flex;
+}
+
 /* what we do */
 
-h2.what-we-do {
+h2.what-we-do-title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -170,6 +234,24 @@ h2.what-we-do {
     letter-spacing: 0.03em;
     color: #212121;
 
+}
+
+.what-we-do-images {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.what-we-do-1 {
+    padding: 30px;
+}
+
+.what-we-do-2 {
+    padding: 30px;
+}
+
+.what-we-do-3 {
+    padding: 30px;
 }
 
 /* Our Team */
@@ -236,7 +318,7 @@ a.contact-info-footer {
 /* PORTFOLIO PAGE */
 
 /*logo*/
-a.logo {
+a.logo-top {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -289,7 +371,10 @@ ul.contact-info {
 }
 
 .cards {
-    border-bottom: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
 }
 
 
@@ -301,10 +386,14 @@ h2.headings {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+    width: 322px;
+    height: 70px;
 }
 
 
 p.headings-text {
+    width: 322px;
+    height: 30px;
     font-style: normal;
     font-size: 16px;
     line-height: 30px;
