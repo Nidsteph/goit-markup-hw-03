@@ -50,6 +50,12 @@ address {
     margin: 0;
 }
 
+/* SECTIONS */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* INDEX PAGE */
 
@@ -282,6 +288,10 @@ ul.contact-info {
     border-radius: 4px;
 }
 
+.cards {
+    border-bottom: 1px solid #EEEEEE;
+}
+
 
 /* Text under images */
 h2.headings {
@@ -292,6 +302,7 @@ h2.headings {
     letter-spacing: 0.06em;
     color: #212121;
 }
+
 
 p.headings-text {
     font-style: normal;
