@@ -496,19 +496,28 @@ h3.goals {
 }
 
 
-.all-goals-1 p.goal-details {
+p.goal-details {
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
 
-    display: inline;
-
 }
 
-.table-goals {
-    display: table;
-    margin: 0 auto;
+.all-goals-1 {
+    margin-right: 30px;
+}
+
+.all-goals-2 {
+    margin-right: 30px;
+}
+
+.all-goals-3 {
+    margin-right: 30px;
+}
+
+.goals {
+    margin-bottom: 9.41px;
 }
 
 /* what we do */
