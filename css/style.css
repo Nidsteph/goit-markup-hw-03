@@ -575,6 +575,13 @@ a.contact-info-footer {
 
 /* PORTFOLIO PAGE */
 
+.page-header {
+    display: block;
+    align-content: center;
+    border-bottom: 1px solid #ECECEC;
+}
+
+
 /*logo*/
 a.logo {
     font-style: normal;
@@ -585,6 +592,23 @@ a.logo {
     color: #2196F3;
 }
 
+.logo-header-portfolio {
+    margin: 24px 0px 25px 215px;
+}
+
+.navigator-portfolio {
+    display: inline-flex;
+    margin: 32px 340px 32px 93px;
+}
+
+.navigator-portfolio-1 {
+    margin: 0px 57px 0px 0px;
+}
+
+.navigator-portfolio-2 {
+    margin: 0px 69px 0px 0px;
+}
+
 
 /* contact on the header */
 ul.contact-info {
@@ -592,8 +616,22 @@ ul.contact-info {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
+
 }
 
+.contact-info-portfolio {
+    display: inline-flex;
+    margin: 32px 225px 32px 0px;
+    flex-shrink: 1;
+}
+
+.contact-info-1 {
+    margin: 0px 50px 0px 0px;
+}
+
+.contact-info-2 {
+    margin: 0px 0px 0px 0px;
+}
 
 /* buttons of portfolio */
 .list-of-buttons {
@@ -602,10 +640,14 @@ ul.contact-info {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
+
     color: #212121;
     border: none;
     background-color: #F5F4FA;
     cursor: pointer;
+    margin: 8px;
+    border-radius: 4px;
+
 }
 
 .list-of-buttons:hover {
@@ -615,6 +657,35 @@ ul.contact-info {
         0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 94px 0px 0px 0px;
+}
+
+/* Padding of the buttons at the top of PORTFOLIO */
+.buttons-item-1 {
+    padding: 6px 27px 6px 26px;
+}
+
+.buttons-item-2 {
+    padding: 6px 26px;
+}
+
+.buttons-item-3 {
+    padding: 6px 53px;
+}
+
+.buttons-item-4 {
+    padding: 6px 26px 6px 25px;
+}
+
+.buttons-item-5 {
+    padding: 6px 26px 6px 27px;
+}
+
+/* filter of the buttons */
 
 .filter-current {
     background-color: #2196F3;
@@ -628,7 +699,85 @@ ul.contact-info {
     background-color: #188CE8;
 }
 
+/* portoflio list of images and titles with description */
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px 94px 0px;
+}
+
+.portfolio-list-row-1 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-2 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-3 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-4 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-5 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-6 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-7 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-8 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+.portfolio-list-row-9 {
+    min-height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+
+
 /* Text under images */
+
+.portfolio-text-box {
+    padding: 20px 24px;
+}
+
 h2.headings {
     font-style: normal;
     font-weight: 700;
@@ -636,6 +785,8 @@ h2.headings {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+
+    padding: 0px 0px 4px 0px;
 }
 
 p.headings-text {
@@ -666,11 +817,12 @@ a.contact-info-footer:focus {
     color: white;
 }
 
+.footer-container {
+    padding: 60px 0px 60px 215px;
+}
 
 /*--- MODULE 3 HW portion ----*/
-.container {
-    width: 1200px;
-}
+.container {}
 
 .top-portion-outer {
     display: inline;
