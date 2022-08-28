@@ -437,9 +437,12 @@ h1.page-heading {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-
+    padding: 200px 0px 30px 0px;
 }
 
+.title-container {
+    padding: 0px 0px 200px 0px;
+}
 
 /* button of Index */
 .button {
@@ -462,6 +465,8 @@ h1.page-heading {
     border-radius: 4px;
     cursor: pointer;
 
+    padding: 10px 19px 10px 20px;
+
 
 }
 
@@ -481,10 +486,17 @@ h3.goals {
     text-transform: uppercase;
     color: #212121;
 
-    display: inline;
 }
 
-p.goal-details {
+
+.all-goals {
+    display: flex;
+    justify-content: center;
+    margin: 94px 215px 100px 215px;
+}
+
+
+.all-goals-1 p.goal-details {
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -512,6 +524,21 @@ h2.what-we-do {
 
 }
 
+
+.what-we-do-images {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 94px 0px;
+}
+
+.what-we-do-images-1 {
+    padding: 0px 30px 0px 0px;
+}
+
+.what-we-do-images-2 {
+    padding: 0px 30px 0px 0px;
+}
+
 /* Our Team */
 h2.our-team {
     font-style: normal;
@@ -521,12 +548,49 @@ h2.our-team {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+
+    padding: 94px 0px 50px 0px;
 }
 
 .our-team-background {
     background-color: #f5f4fa;
 }
 
+.our-team-list {
+    display: flex;
+    justify-content: center;
+}
+
+.our-team-list-1 {
+    margin-right: 30px;
+    margin-bottom: 94px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-2 {
+    margin-right: 30px;
+    margin-bottom: 94px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-3 {
+    margin-right: 30px;
+    margin-bottom: 94px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-4 {
+    margin-bottom: 94px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 
 h3.team-member {
     font-style: normal;
@@ -594,19 +658,18 @@ a.logo {
 
 .logo-header-portfolio {
     margin: 24px 0px 25px 215px;
-    flex-shrink: 1;
 }
 
-.navigator-portfolio {
+.navigator-pages {
     display: inline-flex;
     margin: 32px 340px 32px 93px;
 }
 
-.navigator-portfolio-1 {
+.navigator-pages-1 {
     margin: 0px 57px 0px 0px;
 }
 
-.navigator-portfolio-2 {
+.navigator-pages-2 {
     margin: 0px 69px 0px 0px;
 }
 
@@ -620,18 +683,16 @@ ul.contact-info {
 
 }
 
-.contact-info-portfolio {
+.contact-info-top {
     display: inline-flex;
-    margin: 32px 225px 32px 0px;
+    margin: 32px 0px 32px 0px;
 }
 
 .contact-info-1 {
     margin: 0px 50px 0px 0px;
 }
 
-.contact-info-2 {
-    margin: 0px 0px 0px 0px;
-}
+
 
 /* buttons of portfolio */
 .list-of-buttons {
@@ -820,6 +881,15 @@ a.contact-info-footer:focus {
 .footer-container {
     padding: 60px 0px 60px 215px;
 }
+
+.logo-portfolio-footer {
+    padding: 0px 0px 5px 0px;
+}
+
+.info-footer-2 {
+    padding: 0px 0px 4px 0px;
+}
+
 
 /*--- MODULE 3 HW portion ----*/
 .container {}
