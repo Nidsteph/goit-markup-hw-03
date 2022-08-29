@@ -11,37 +11,37 @@
   </head>
 
     <body>
-      <header>
-        <div class="page-header">
+      <header class="header">
+        <div class="container header-container">
           <!---navigator-->
-          <nav>
-              <a class="logo link logo-header-portfolio" href="./index.html">WebStudio</a>
-              <ul class="list navigator-pages">
-                <li span>
-                  <a class="navigator link current-link navigator-pages-1" href="./index.html"
+          <nav class="nav">
+              <a class="logo link" href="./index.html">WebStudio</a>
+              <ul class="nav-menu list">
+                <li class="nav-item">
+                  <a class="navigator link current-link" href="./index.html"
                     >Studio</a
                   >
                 </li>
-                <li span>
-                  <a class="navigator link navigator-pages-2" href="./portfolio.html"
+                <li class="nav-item">
+                  <a class="navigator link" href="./portfolio.html"
                     >Portfolio</a
                   >
                 </li>
-                <li span>
-                  <a class="navigator link navigator-pages-3" href="/">Contacts</a>
+                <li class="nav-item">
+                  <a class="navigator link" href="/">Contacts</a>
                 </li>
               </ul>
           </nav>
           <!---contact info-->
       
-            <ul class="list contact-info-top">
+            <ul class="header-contacts list">
               <li>
-                <a class="contact-info link contact-info-1" href="mailto:info@devstudio.com"
+                <a class="contact-info link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a class="contact-info link contact-info-2" href="tel:+380961111111"
+                <a class="contact-info link" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -52,8 +52,8 @@
       <!--main area-->
 
       <main>
-        <section class="page-head">
-          <div class=" title-container">
+        <section class="hero">
+          <div class="container hero-container">
             <h1 class="page-heading">
               EFFECTIVE SOLUTIONS FOR<br />
               YOUR BUSINESS
@@ -64,17 +64,17 @@
           </div>
         </section>
 
-        <section class="about">
-          <div>
-            <ul class="all-goals list">
-              <li class="all-goals-1">
+        <section class="section">
+          <div class="container">
+            <ul class="benefits list">
+              <li class="benefits-item">
                 <h3 class="goals">ATTENTION TO DETAILS</h3>
                 <p class="goal-details">
                   We go into all the details and processes of your business to
                   develop a customized solution.
                 </p>
               </li>
-              <li class="all-goals-2">
+              <li class="benefits-item">
                 <h3 class="goals">PUNCTUALITY</h3>
                 <p class="goal-details">
                   With us, you can feel safe and secure. An important principle
@@ -82,14 +82,14 @@
                   deadlines.
                 </p>
               </li>
-              <li class="all-goals-3">
+              <li class="benefits-item">
                 <h3 class="goals">PLANNING</h3>
                 <p class="goal-details">
                   You will be able to observe and participate in every phase of
                   solution development and implementation
                 </p>
               </li>
-              <li class="all-goals-4">
+              <li class="benefits-item">
                 <h3 class="goals">MODERN TECHNOLOGIES</h3>
                 <p class="goal-details">
                   We use innovative tools to solve assigned tasks. It's time to
@@ -101,21 +101,21 @@
         </section>
 
         <!---what we do-->
-        <section class="page-what-we-do">
-          <div>
-            <h2 class="what-we-do">What we do</h2>
+        <section class="section section-no-top-padding">
+          <div class="container">
+            <h2 class="section-title">What we do</h2>
             <ul class="what-we-do-images list">
-              <li class="what-we-do-images-1">
+              <li class="what-we-do-items">
                 <img
                   src="./images/what-we-do-1.png"
                   alt="Typing on the Computer"
                   width="370"
                 />
               </li>
-              <li class="what-we-do-images-2">
+              <li class="what-we-do-items">
                 <img src="./images/what-we-do-2.png" alt="Apps" width="370" />
               </li>
-              <li class="what-we-do-images-3">
+              <li class="what-we-do-items">
                 <img
                   src="./images/what-we-do-3.png"
                   alt="Choose A Color"
@@ -127,77 +127,81 @@
         </section>
 
         <!--- our team-->
-        <section class="our-team-background">
-          <div>
-            <h2 class="our-team">Our Team</h2>
+        <section class="section section-team">
+          <div class="container">
+            <h2 class="section-title">Our Team</h2>
             <ul class="our-team-list list">
-              <li class="our-team-list-1">
+              <li class="our-team-item">
                 <img
+                  class="image-our-team"
                   src="./images/our-team-1.jpg"
                   alt="Team member 1"
                   width="270"
                 />
                 <h3 class="team-member">Игорь Демьяненко</h3>
-                <p class="job">Product Designer</p>
+                <p class="team-position">Product Designer</p>
               </li>
-              <li class="our-team-list-2">
+              <li class="our-team-item">
                 <img
-                  src="./images/our-team-2.png"
+                class="image-our-team"  
+                src="./images/our-team-2.png"
                   alt="Team member 2"
                   width="270"
                 />
                 <h3 class="team-member">Ольга Репина</h3>
-                <p class="job">Frontend Developer</p>
+                <p class="team-position">Frontend Developer</p>
               </li>
-              <li class="our-team-list-3">
+              <li class="our-team-item">
                 <img
-                  src="./images/our-team-3.jpg"
+                class="image-our-team" 
+                src="./images/our-team-3.jpg"
                   alt="Team member 3"
                   width="270"
                 />
                 <h3 class="team-member">Николай Тарасов</h3>
-                <p class="job">Marketing</p>
+                <p class="team-position">Marketing</p>
               </li>
-              <li class="our-team-list-4">
+              <li class="our-team-item">
                 <img
-                  src="./images/our-team-4.jpg"
+                class="image-our-team"  
+                src="./images/our-team-4.jpg"
                   alt="Team member 4"
                   width="270"
                 />
                 <h3 class="team-member">Михаил Ермаков</h3>
-                <p class="job">UI Designer</p>
+                <p class="team-position">UI Designer</p>
               </li>
             </ul>
           </div>
         </section>
       </main>
 
-      <footer class="footer-background">
+      <footer class="footer">
         <!--footer of the site-->
-        <div class="footer-container">
+        <div class="container">
           <a class="logo link logo-portfolio-footer" href="./index.html">WebStudio</a>
           <address>
             <ul class="footer-contact list">
-              <li>
+              <li class="info-footer">
                 <a
                   href="https://www.google.com/maps/place/695+Park+Ave,+New+York,+NY+10065/@40.7688994,-73.9650256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256"
                   target="_blank"
-                  class="contact-info-footer link info-footer-1"
+                  class="contact-info-footer link"
                 >
                   695 Park Ave, New York, NY 10065
                   <br />United States</a
                 >
               </li>
-              <li>
+              <li class="info-footer">
                 <a
-                  class="contact-info-footer link info-footer-2"
+                  class="contact-info-footer link"
                   href="mailto:info@example.com"
                 >
                   info@example.com</a
                 >
               </li>
-              <li>
-                <a class="contact-info-footer link info-footer-3" href="tel:+12127724150">
+              <li class="info-footer">
+                <a class="contact-info-footer link" href="tel:+12127724150">
                   +1 212-772-4150</a
                 >
               </li>
