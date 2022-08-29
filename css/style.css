@@ -731,9 +731,6 @@ li.filter-item:not(:last-child) {
     margin-left: 30px;
 }
 
-li.project-item:not(:last-child) {
-    margin-right: 30px;
-}
 
 /* Text under images */
 
